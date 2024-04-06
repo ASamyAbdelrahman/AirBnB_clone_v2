@@ -6,8 +6,7 @@ from fabric.api import env, local, put, run, runs_once
 
 
 """The list of host server IP addresses."""
-env.hosts = ["52.201.222.57", "34.227.89.1"]
-
+env.hosts = ['54.208.160.29', '18.207.112.115']
 
 @runs_once
 def do_pack():
